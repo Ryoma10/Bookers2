@@ -1,5 +1,6 @@
 <div>
   <h3><%= @user.name %></h3>
-  <%= current_user.name %>
+  <%= current_user.id %>
+  <%= @user.id %>
   <%= image_tag current_user.get_profile_image(100,100) %>
 </div>
